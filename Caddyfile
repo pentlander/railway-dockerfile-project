@@ -9,7 +9,7 @@ log {
 }
 
 handle_path /nodejs/* {
-        reverse_proxy nodejs.railway.internal
+        reverse_proxy nodejs.railway.internal:3000
 }
 
 file_server
