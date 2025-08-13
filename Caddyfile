@@ -13,3 +13,4 @@ handle_path /nodejs/* {
 }
 
 file_server
+
