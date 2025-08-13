@@ -8,3 +8,8 @@ log {
         level INFO
 }
 
+handle_path /nodejs/* {
+        reverse_proxy nodejs.railway.internal
+}
+
+file_server
