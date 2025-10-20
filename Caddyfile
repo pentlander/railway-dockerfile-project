@@ -5,7 +5,6 @@ root * /srv
 log {
         output stdout
         format json
-        level DEBUG
 }
 
 handle_path /nodejs/* {
